@@ -1,0 +1,141 @@
+ /* Fonts Section */
+@font-face {
+    font-family: majesti_banner_heavy;
+    src: url(../css/Majesti-Banner-Heavy.otf);
+}
+
+@font-face {
+    font-family: majesti_banner_medium;
+    src: url(../css/Majesti-Banner-Medium.otf);
+}
+
+@font-face {
+    font-family: majesti_banner_book;
+    src: url(../css/Majesti-Banner-Book.otf);
+}
+
+.font_athelas_regular {
+font-size: 24px;
+font-family: athelas, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.font_majesti_heavy {
+    font-size: 100px;
+    color: rgb(190, 30, 45);
+    font-family: majesti_banner_heavy;
+}
+
+.font_majesti_medium {
+    font-size: 35px;
+    font-family: majesti_banner_medium;
+}
+
+.font_majesti_book{
+    font-size: 25px;
+    font-family: majesti_banner_book;
+}
+
+/* Class Section */
+.nav_logo{
+    display: block;
+    width: auto;
+    height: 30px;
+    margin: auto;
+}
+
+.aside_title{
+    color: rgb(240, 78, 35);
+    font-size: 35px;
+    font-family: majesti_banner_book;
+}
+
+.aside_text{
+    color: white;
+    font-size: 25px;
+    font-family: athelas_regular;
+}
+
+.image_1{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+.image_2{
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+}
+.menu{
+    width: 800px;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+
+.split_view {
+    display: flex;
+    text-align: center;
+}
+
+.subpage_center{
+    text-align: center;
+}
+
+.twitter_logo{
+    width: 25px;
+}
+
+/* Tag Section */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: majesti_banner_medium;
+    font-size: 24px;
+}
+    
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: rgb(190, 30, 45);
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: rgb(240, 78, 35);
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
