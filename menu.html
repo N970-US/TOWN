@@ -7,31 +7,45 @@
     <meta name="description" content="Offering a wide variety of authentic Chinese cuisine, we pride ourselves on our staff of world class chefs and make all dishes by order, fresh, directly from our kitchen to your plate.">
     <meta name="keywords" content="Chinese Cuisine, New York, food, Chinese recipes, menus, location, luxury, authentic, live music, dinner, New York restaurant, Town restaurant, ethnic cuisine, ethnic, Chinese">
     <meta name="author" content="Camdyn Bacon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" href="https://use.typekit.net/eco5gvv.css">
     <title>TOWN Menu</title>
 </head>
 <body> <!-- This is a body tag. The body tag defines the documents body. This tag contains the content of a page such as headings, paragraphs, images, hyperlinks, etc. This content is what the visiter to a webpage will see. -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html"><figure class="nav_logo">
-                    <img class="nav_logo" src="./images/town_logo.png" alt="A picture of the TOWN Restaurant logo"/>
-                </figure></a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            </nav>
-            <h1 class="font_majesti_heavy"> <!-- This is an h1 tag. The h1 tag is used to define HTML headings. There can only be one H1 tag per page and it is considered the most important heading. -->
-                Menu
-                <br>
-                <img src="./images/food_photo2.jpg" title="Photo of steaming dumplings" alt="Photo of steaming dumplings" class="image_1">
-            </h1>
+        <nav class="navbar navbar-expand-sm navbar-dark ">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/town_logo.png" width="200" height="80" alt="A picture of the TOWN Restaurant logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link header-nav" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link header-nav" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-nav" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-nav" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <section>
+        <h1 class="font_majesti_heavy"> <!-- This is an h1 tag. The h1 tag is used to define HTML headings. There can only be one H1 tag per page and it is considered the most important heading. -->
+            Menu
+            <br>
+            <img src="./images/food_photo2.jpg" title="Photo of steaming dumplings" alt="Photo of steaming dumplings" class="image_1 img-thumbnail">
+        </h1>
         <article>
             <div class="subpage_center">
                 <h2 class="font_majesti_medium">
@@ -47,10 +61,14 @@
         </article>
     </section>
 
-    <footer>
-        <p>
-            &copy;Copyright 2021 - TOWN Restaurant <br> 123 Main Street, New York, NY 10001 <br> +1 (212) 555-1234 | Follow Our <a href="https://twitter.com/TOWNResturaunt">Twitter</a>
-        </p>
-    </footer>
+    <div class="container">
+        <footer class="py-3 my-4">
+            <p>
+                &copy;Copyright 2023 - TOWN Restaurant <br> 123 Main Street, New York, NY 10001
+            </p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

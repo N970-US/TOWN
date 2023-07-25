@@ -7,81 +7,99 @@
     <meta name="description" content="TOWN is the primier authentic Chinese Food restaurant in the New York area, proudly serving and providing a fine dining experience for over 20 years.">
     <meta name="keywords" content="Chinese Cuisine, New York, food, Chinese recipes, menus, location, luxury, authentic, live music, dinner, New York restaurant, Town restaurant, ethnic cuisine, ethnic, Chinese">
     <meta name="author" content="Camdyn Bacon">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" href="https://use.typekit.net/eco5gvv.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <title>TOWN Restaurant</title> <!-- This is the title tag. This title tag defines the title of the document. It is required on all HTML documents and it defines the title in the browser. Additionally, it also diplays the title for the page in search engine results, making it important for SEO. -->
 </head>
 
 <body> <!-- This is a body tag. The body tag defines the documents body. This tag contains the content of a page such as headings, paragraphs, images, hyperlinks, etc. This content is what the visiter to a webpage will see. -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html"><figure class="nav_logo">
-                    <img class="nav_logo" src="./images/town_logo.png" alt="A picture of the TOWN Restaurant logo"/>
-                </figure></a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            </nav>
-            <h1 class="font_majesti_heavy"> <!-- This is an h1 tag. The h1 tag is used to define HTML headings. There can only be one H1 tag per page and it is considered the most important heading. -->
-                TOWN Restaurant
-                <br>
-                <img src="./images/location_photo1.jpg" title="Photo of restaurant location" alt="Photo of restaurant location" class="image_1">
-            </h1>
+        <nav class="navbar navbar-expand-sm navbar-dark ">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/town_logo.png" width="200" height="80" alt="A picture of the TOWN Restaurant logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link header-nav" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link header-nav" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-nav" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-nav" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <section>
+        <h1 class="font_majesti_heavy"> <!-- This is an h1 tag. The h1 tag is used to define HTML headings. There can only be one H1 tag per page and it is considered the most important heading. -->
+            TOWN Restaurant
+            <br>
+            <img class="img-thumbnail image_1" src="./images/location_photo1.jpg" title="Photo of restaurant location" alt="Photo of restaurant location">
+        </h1>
             <article>
-            <div class="split_view">
-                <div class="left">
-                    <h2 class="font_majesti_medium">
-                        Our Vision
-                    </h2>
-                        <p class="font_athelas_regular">
-                            To bring quality, style and the wish for good fortune to all of our guests. We provide a high-end experience through Chinese cuisine.
-                        </p> <!-- This is a paragraph tag. The paragraph tag contains the text content for a webpage. -->
-                </div>
-                <div class="right">
-                    <h2 class="font_majesti_medium">
-                        Why TOWN?
-                    </h2>
-                        <p class="font_athelas_regular">
-                            Based out of the heart of New York, Town has been developing fine Chinese cuisine for over a decade. Through meticulously cultivating our team of professional chefs and hosts to refine our restaurant, our dedication has allowed TOWN to become the premiere location for both fine dining and luxury.
-                        </p> 
-                </div>
-            </div>
 
-            <div class="split_view">
-                <div class="left">
-                    <img src="./images/cooking_photo1.jpg" title="Photo of a chef cooking noodles" alt="Photo of a chef cooking noodles" class="image_2">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="font_majesti_medium text-center">
+                                Our Vision <br>
+                                <p class="font_athelas_regular">
+                                    To bring quality, style and the wish for good fortune to all of our guests. We provide a high-end experience through Chinese cuisine.
+                                </p> <!-- This is a paragraph tag. The paragraph tag contains the text content for a webpage. -->
+                            </h2>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="font_majesti_medium text-center">
+                                Why TOWN? <br>
+                                <p class="font_athelas_regular">
+                                    Based out of the heart of New York, Town has been developing fine Chinese cuisine for over a decade. Through meticulously cultivating our team of professional chefs and hosts to refine our restaurant, our dedication has allowed TOWN to become the premiere location for both fine dining and luxury.
+                                </p> <!-- This is a paragraph tag. The paragraph tag contains the text content for a webpage. -->
+                            </h2>
+                        </div>
+                    </div>
                 </div>
-                <div class="right">
-                <h2 class="font_majesti_medium">
-                    Our Menu 
-                </h2>
-                    <p class="font_athelas_regular">
-                        Taking pride in our heritage, TOWN restaurant serves authentic Chinese dishes guarenteed to contain the spirit of China, in one convenient city location. Through our certified chefs, down to our imported liquores, TOWN is the primier location for Eastern Cuisine in New York City.
-                        <br>
-                    </p> 
-                    <aside>
-                        <p class="aside_title">
-                            Our current monthly liquor rotation includes:
-                        </p>
-                        <p class="aside_text">
-                            Coastal River Baijiu | Qian Shaoxing Rice Wine | Sichuan Tou Grain Alcohol | Ming Yen Mijiu
-                        </p>
-                    </aside>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="font_majesti_medium text-center">
+                                Our Menu<br>
+                                <p class="font_athelas_regular">
+                                    Taking pride in our heritage, TOWN restaurant serves authentic Chinese dishes guarenteed to contain the spirit of China, in one convenient city location. Through our certified chefs, down to our imported liquores, TOWN is the primier location for Eastern Cuisine in New York City.
+                                </p> <!-- This is a paragraph tag. The paragraph tag contains the text content for a webpage. -->
+                            </h2>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="font_majesti_medium text-center">
+                                Current Liquor Rotation: <br>
+                                <p class="font_athelas_regular">
+                                    Coastal River Baijiu | Qian Shaoxing Rice Wine | Sichuan Tou Grain Alcohol | Ming Yen Mijiu
+                                </p> <!-- This is a paragraph tag. The paragraph tag contains the text content for a webpage. -->
+                            </h2>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </article>
 
-        <footer>
-            <p>
-                &copy;Copyright 2021 - TOWN Restaurant <br> 123 Main Street, New York, NY 10001 <br> +1 (212) 555-1234 | Follow Our <a href="https://twitter.com/TOWNResturaunt">Twitter</a>
-            </p>
-        </footer>
+        <div class="container">
+            <footer class="py-3 my-4">
+                <p>
+                    &copy;Copyright 2023 - TOWN Restaurant <br> 123 Main Street, New York, NY 10001
+                </p>
+            </footer>
+        </div>
+
     </section>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

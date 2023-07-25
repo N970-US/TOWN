@@ -7,57 +7,79 @@
     <meta name="description" content="Providing a high-end experience through Chinese cuisine and refined atmosphere, we aim to leave all patrons looking forward to dining with us again. ">
     <meta name="keywords" content="Chinese Cuisine, New York, food, Chinese recipes, restaurant information, location, luxury, history, about us, dinner, New York restaurant, Town restaurant, ethnic cuisine, ethnic, Chinese">
     <meta name="author" content="Camdyn Bacon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" href="https://use.typekit.net/eco5gvv.css">
     <title>About TOWN</title>
 </head>
 <body> <!-- This is a body tag. The body tag defines the documents body. This tag contains the content of a page such as headings, paragraphs, images, hyperlinks, etc. This content is what the visiter to a webpage will see. -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html"><figure class="nav_logo">
-                    <img class="nav_logo" src="./images/town_logo.png" alt="A picture of the TOWN Restaurant logo"/>
-                </figure></a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            </nav>
-            <h1 class="font_majesti_heavy"> <!-- This is an h1 tag. The h1 tag is used to define HTML headings. There can only be one H1 tag per page and it is considered the most important heading. -->
-                About Us
-                <br>
-                <img src="./images/location_photo2.jpg" title="Photo of TOWN restaurant" alt="Photo of TOWN restaurant" class="image_1">
-            </h1>
+        <nav class="navbar navbar-expand-sm navbar-dark ">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/town_logo.png" width="200" height="80" alt="A picture of the TOWN Restaurant logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link header-nav" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link header-nav" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-nav" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header-nav" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <section>
+        
+        <h1 class="font_majesti_heavy"> <!-- This is an h1 tag. The h1 tag is used to define HTML headings. There can only be one H1 tag per page and it is considered the most important heading. -->
+            About Us
+            <br>
+            <img src="./images/location_photo2.jpg" title="Photo of TOWN restaurant" alt="Photo of TOWN restaurant" class="image_1 img-thumbnail">
+        </h1>
+
         <article>
-            <div class="subpage_center">
-                <h2 class="font_majesti_medium">
-                    Our Vision
-                </h2>
-                    <p class="font_athelas_regular">
-                        Since its inception, TOWN has consistently strived to bring quality, style, and the wish for good fortune to all of our guests. Providing a high-end experience through Chinese cuisine and refined atmosphere, we aim to leave all patrons looking forward to dining with us again.
-                    </p> <!-- This is a paragraph tag. The paragraph tag contains the text content for a webpage. -->
-            </div>
-        </article>
-        <article>
-            <div class="subpage_center">
-                <h2 class="font_majesti_medium">
-                    History
-                </h2>
-                    <p class="font_athelas_regular">
-                        Established 1990 by the Huáng family, TOWN has stayed loyal to its roots, growing from a humble size to it's newly renovated location on Main Street, New York, the same borough the resturaunt was created to serve. Originally designed to create a refined space for locals in the community, TOWN's reputation rapidly grew into the place to be for fine dining in Queens. 
-                    </p> <!-- This is a paragraph tag. The paragraph tag contains the text content for a webpage. -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="font_majesti_medium text-center">
+                            Our Vision <br>
+                            <p class="font_athelas_regular">
+                                Since its inception, TOWN has consistently strived to bring quality, style, and the wish for good fortune to all of our guests. Providing a high-end experience through Chinese cuisine and refined atmosphere, we aim to leave all patrons looking forward to dining with us again.
+                            </p> <!-- This is a paragraph tag. The paragraph tag contains the text content for a webpage. -->
+                        </h2>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="font_majesti_medium text-center">
+                            History <br>
+                            <p class="font_athelas_regular">
+                                Established 1990 by the Huáng family, TOWN has stayed loyal to its roots, growing from a humble size to it's newly renovated location on Main Street, New York, the same borough the resturaunt was created to serve. Originally designed to create a refined space for locals in the community, TOWN's reputation rapidly grew into the place to be for fine dining in Queens. 
+                            </p> <!-- This is a paragraph tag. The paragraph tag contains the text content for a webpage. -->
+                        </h2>
+                    </div>
+                </div>
             </div>
         </article>
     </section>
 
-    <footer>
-        <p>
-            &copy;Copyright 2021 - TOWN Restaurant <br> 123 Main Street, New York, NY 10001 <br> +1 (212) 555-1234 | Follow Our <a href="https://twitter.com/TOWNResturaunt">Twitter</a>
-        </p>
-    </footer>
+    <div class="container">
+        <footer class="py-3 my-4">
+            <p>
+                &copy;Copyright 2023 - TOWN Restaurant <br> 123 Main Street, New York, NY 10001
+            </p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

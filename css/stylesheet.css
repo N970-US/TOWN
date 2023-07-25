@@ -94,18 +94,16 @@ font-style: normal;
 }
 
 /* Tag Section */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    font-family: majesti_banner_medium;
-    font-size: 24px;
+
+h2{
+    color: rgb(240, 78, 35);
 }
+
+
     
 li {
     float: left;
+    color:white
 }
   
 li a {
@@ -128,9 +126,7 @@ p{
     color: white;
 }
 
-h2{
-    color: rgb(240, 78, 35);
-}
+
 
 h1{
     text-align: center;
@@ -138,4 +134,19 @@ h1{
 
 footer{
     text-align: center;
+    color:white
+}
+
+.footer_1 {
+    color:white
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: majesti_banner_medium;
+    font-size: 24px;
+    color:white
 }
